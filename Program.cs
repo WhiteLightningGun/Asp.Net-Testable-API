@@ -1,8 +1,8 @@
 using Microsoft.OpenApi.Models;
 using Swashbuckle.AspNetCore.Filters;
-using API.Data;
+using Testable_API.Data;
 using Microsoft.EntityFrameworkCore;
-using API.Repository;
+using Testable_API.Repository;
 
 var builder = WebApplication.CreateBuilder(args);
 
