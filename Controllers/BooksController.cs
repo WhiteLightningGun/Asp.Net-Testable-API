@@ -8,7 +8,7 @@ namespace Testable_API.Controllers
     [ApiController]
     public class BooksController : ControllerBase
     {
-        private IDataRepository dataRepo;
+        private readonly IDataRepository dataRepo;
         public BooksController(IDataRepository _dataRepo)
         {
             dataRepo = _dataRepo;
