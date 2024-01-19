@@ -1,5 +1,5 @@
 using System.ComponentModel.DataAnnotations;
-namespace API.Data;
+namespace Testable_API.Data;
 
 public class Book
 {

@@ -1,5 +1,5 @@
-namespace API.Repository;
-using API.Data;
+namespace Testable_API.Repository;
+using Testable_API.Data;
 
 public interface IDataRepository
 {

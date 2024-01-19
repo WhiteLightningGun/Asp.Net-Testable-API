@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using Testable_API.Controllers;
 
-namespace API.Data;
+namespace Testable_API.Data;
 
 public interface IDataContext
 {

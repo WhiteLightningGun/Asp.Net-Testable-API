@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 
-namespace API.Data;
+namespace Testable_API.Data;
 
 public class DataContext: DbContext, IDataContext
 {

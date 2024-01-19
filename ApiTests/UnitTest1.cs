@@ -1,4 +1,5 @@
 using Xunit;
+using Testable_API.Controllers;
 
 namespace ApiTests
 {

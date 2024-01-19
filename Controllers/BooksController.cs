@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
-using API.Data;
-using API.Repository;
+using Testable_API.Data;
+using Testable_API.Repository;
 
 namespace Testable_API.Controllers
 {
