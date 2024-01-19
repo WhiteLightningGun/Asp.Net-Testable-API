@@ -8,5 +8,6 @@ public class Book
     public required string Title {get; set;}
     [MaxLength(50)]
     public required string Author {get; set;}
+    [MaxLength(13)]
     public required string ISBN {get; set;}
 }
