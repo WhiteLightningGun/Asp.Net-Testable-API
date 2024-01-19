@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/home/chris/Documents/testable api/Asp.Net-Testable-API/Testable API.csproj": {}
+    "C:\\Users\\chris\\Documents\\GitHub\\Testable Api\\Testable API.csproj": {}
   },
   "projects": {
-    "/home/chris/Documents/testable api/Asp.Net-Testable-API/Testable API.csproj": {
+    "C:\\Users\\chris\\Documents\\GitHub\\Testable Api\\Testable API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/chris/Documents/testable api/Asp.Net-Testable-API/Testable API.csproj",
+        "projectUniqueName": "C:\\Users\\chris\\Documents\\GitHub\\Testable Api\\Testable API.csproj",
         "projectName": "Testable API",
-        "projectPath": "/home/chris/Documents/testable api/Asp.Net-Testable-API/Testable API.csproj",
-        "packagesPath": "/home/chris/.nuget/packages/",
-        "outputPath": "/home/chris/Documents/testable api/Asp.Net-Testable-API/obj/",
+        "projectPath": "C:\\Users\\chris\\Documents\\GitHub\\Testable Api\\Testable API.csproj",
+        "packagesPath": "C:\\Users\\chris\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\chris\\Documents\\GitHub\\Testable Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/chris/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\chris\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -84,7 +86,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

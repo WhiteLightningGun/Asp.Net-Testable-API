@@ -1,46 +1,17 @@
-# ASP.NET
-*.suo
-*.user
-*.bak
-*.cache
-*.log
-*.vspscc
-*_i.c
-*_p.c
-*.ncb
-*.suo
-*.tlb
-*.tlh
-*.bak
-*.pdb
-*.ipch
-*.pch
-*.res
-*.tlb
-*.dll
-*.lib
-*.exp
-*.sbr
-*.sdf
-*.aps
-*.clw
-*.odl
-*.hlp
-*.pch
-*.pdb
-*.idb
-*.manifest
-*.res
-*.tlog
-*.zip
-*.nupkg
-*.bak
-*.cache
-*.csproj.user
-*.VC.db
-*.VC.VC.opendb
-*.VC.VC.opendb.lock
-
-# Binaries
+# Ignore .NET build output directories
 bin/
 obj/
+
+# Ignore NuGet Packages
+*.nupkg
+# The packages folder can be ignored because of Package Restore
+**/packages/*
+
+# Ignore Visual Studio user-specific files
+.vs/
+
+# Ignore user-specific files
+*.user
+*.userosscache
+*.suo
+*.userprefs
