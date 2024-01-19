@@ -37,5 +37,15 @@ namespace ApiTests
             var model = Assert.IsAssignableFrom<IEnumerable<Book>>(result);
             Assert.Equal(booksList.Length, result.Count());
         }
+
+        [Fact]
+        public void GetHelloReturns200()
+        {
+            // Act
+            var result = controller.Hello();
+
+            // Assert, testing to see if controller method returns IEnumerable<Book> and that is has the correct number of items
+            var model = Assert.IsAssignableFrom<IActionResult>(result);
+        }
     }
 }

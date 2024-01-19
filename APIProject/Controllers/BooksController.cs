@@ -20,5 +20,11 @@ namespace Testable_API.Controllers
             var BookList = dataRepo.GetAllBooks();
             return BookList;
         }
+
+        [HttpGet("Hello")]
+        public IActionResult Hello()
+        {
+            return new OkResult();
+        }
     }
 }
