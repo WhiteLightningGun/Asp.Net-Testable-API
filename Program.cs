@@ -15,7 +15,7 @@ builder.Services.AddDbContext<IDataContext, DataContext>(options =>
     {
         options.UseSqlite(builder.Configuration.GetConnectionString("SqliteConnection"));
     });
-builder.Services.AddTransient<IDataRepository, DataRepository>();
+builder.Services.AddScoped<IDataRepository, DataRepository>();
 
 builder.Services.AddSwaggerGen(options =>
 {
