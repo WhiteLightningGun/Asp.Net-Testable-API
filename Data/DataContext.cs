@@ -8,5 +8,5 @@ public class DataContext: DbContext
     {
     }
 
-    //public DbSet<WeatherForecast> WeatherForecasts { get; set; }
+    //public DbSet<WeatherForecast> WeatherForecasts { get; set; }... 
 }   
