@@ -1,4 +1,3 @@
-/*
 using Xunit;
 using Microsoft.AspNetCore.Mvc;
 using Moq;
@@ -41,5 +40,3 @@ namespace ApiTests
         }
     }
 }
-
-*/
