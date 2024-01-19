@@ -8,9 +8,9 @@ public class DataRepository : IDataRepository
     {
         dataContext = _dataContext;
     }
-    public Book[] GetAllBooks()
+    public IEnumerable<Book> GetAllBooks()
     {
-        var BookList = dataContext.Books.Select(x => x).ToArray();
+        IEnumerable<Book> BookList = dataContext.Books.Select(x => x).ToArray();
         return BookList;
     }
 

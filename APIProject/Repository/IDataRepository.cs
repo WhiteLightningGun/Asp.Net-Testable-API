@@ -3,5 +3,5 @@ using Testable_API.Data;
 
 public interface IDataRepository
 {
-    public Book[] GetAllBooks();
+    public IEnumerable<Book> GetAllBooks();
 }
