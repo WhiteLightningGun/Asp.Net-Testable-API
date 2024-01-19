@@ -2,6 +2,7 @@ using Microsoft.OpenApi.Models;
 using Swashbuckle.AspNetCore.Filters;
 using API.Data;
 using Microsoft.EntityFrameworkCore;
+using API.Repository;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,10 +11,11 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddDbContext<DataContext>(options =>
+builder.Services.AddDbContext<IDataContext, DataContext>(options =>
     {
         options.UseSqlite(builder.Configuration.GetConnectionString("SqliteConnection"));
     });
+builder.Services.AddTransient<IDataRepository, DataRepository>();
 
 builder.Services.AddSwaggerGen(options =>
 {
