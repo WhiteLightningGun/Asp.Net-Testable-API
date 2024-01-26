@@ -1,0 +1,1 @@
+This was a practice for future Asp.net projects. Here I use the repo pattern for simpler database queries, and implement interfaces for all important classes thereby permitting dependency injection and testing with Xunit.
